@@ -70,9 +70,6 @@ typedef struct LiquidCrystalDevice_t {
 	uint8_t DisplayFunction;
 	uint8_t DisplayControl;
 	uint8_t DisplayMode;
-
-	uint8_t Row;
-	uint8_t Column;
 } LiquidCrystalDevice_t;
 
 struct LiquidCrystalDevice_t lq_init(uint8_t address, uint8_t columns, uint8_t rows, uint8_t dotSize);
