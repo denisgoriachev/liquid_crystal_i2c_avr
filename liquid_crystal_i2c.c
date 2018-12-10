@@ -5,8 +5,8 @@
 *  Author: Barrett
 */
 
-#include "I2CMasterDevice.h"
-#include "LiquidCrystalI2CDevice.h"
+#include "i2c_master.h"
+#include "liquid_crystal_i2c.h"
 
 #include <avr/io.h>
 #include <util/delay.h>

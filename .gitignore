@@ -1,3 +1,7 @@
 LiquidCrystalI2CDevice.componentinfo.xml
 LiquidCrystalI2CDevice.cproj
 Debug/
+liquid_crystal_i2c_avr.atsln
+liquid_crystal_i2c_avr.componentinfo.xml
+liquid_crystal_i2c_avr.cproj
+.vs/
