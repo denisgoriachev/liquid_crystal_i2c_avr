@@ -5,8 +5,8 @@
 *  Author: Barrett
 */
 
-#include "I2CMasterDevice.h"
-#include "LiquidCrystalI2CDevice.h"
+#include "i2c_master.h"
+#include "liquid_crystal_i2c.h"
 
 #include <avr/io.h>
 #include <util/delay.h>
@@ -24,9 +24,6 @@ LiquidCrystalDevice_t lq_init(uint8_t address, uint8_t columns, uint8_t rows, ui
 
 	// Initialize to default text direction (for roman languages)
 	device.DisplayMode = LCD_ENTRYLEFT | LCD_ENTRYSHIFTDECREMENT;
-
-	device.Row = 0;
-	device.Column = 0;
 
 	if (rows > 1) {
 		device.DisplayFunction |= LCD_2LINE;
